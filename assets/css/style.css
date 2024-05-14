@@ -1,0 +1,56 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
+/* Asterisk wildcard selector to override default style added by the browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General style */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Generic project styles */
+  color: #3a3a3a;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+}
+header a {
+  text-decoration: none;
+  columns: inherit;
+}
+
+main {
+  background-color: bisque;
+  color: aquamarine;
+  flex: 1 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  background-color: bisque;
+  color: #3a3a3a;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+  text-align: center;
+  list-style-type: none;
+}
