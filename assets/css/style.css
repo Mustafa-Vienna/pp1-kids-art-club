@@ -43,3 +43,17 @@ main {
 }
 
 /* Footer */
+#social-networks {
+  text-align: center;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color:#ff85a2;
+}
+
+#social-networks i {
+  font-size: xx-large;
+  padding: 20px 0;
+  color:#ffd500;
+}
