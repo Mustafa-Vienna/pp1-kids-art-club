@@ -7,3 +7,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* General style */
+:root {
+  /* Fonts */
+  --font-family: 'Open Sans', sans-serif;
+  --heading-font: 'Roboro', sans-serif;
+  /* colors */
+  --primary-color: #ffd500; /*Bright Yellow */
+  --secondary-color: #ff85a2; /* Candy Pink */
+  --accent-color: #87ceeb; /* Sky blue */
+  --highlight-color: #7ac74f; /*Grass Green */
+  --extra-color: #a569bd; /* Purplue */
+}
