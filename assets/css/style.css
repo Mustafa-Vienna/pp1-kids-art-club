@@ -13,37 +13,60 @@
   /* Fonts */
   --font-family: 'Open Sans', sans-serif;
   --heading-font: 'Roboto', sans-serif;
-  --logo-font: 'Fredoka', cursive;
+  --logo-font: 'Fredoka One', cursive;
   /* colors */
-  --primary-color: #ffd500; /*Bright Yellow */
-  --secondary-color: #ff85a2; /* Candy Pink */
-  --accent-color: #87ceeb; /* Sky blue */
-  --highlight-color: #7ac74f; /*Grass Green */
-  --extra-color: #a569bd; /* Purplue */
-  /* Additional colors */
-  --dark-purple-color: #4b0082;
-  --hot-pink-color: #ff69b4;
-  --yellow-color: #ff6;
-  --lime-green-color: #32cd32;
+  --primary-color: #ff6347;      /* Tomato Red */
+  --secondary-color: #ffd700;    /* Gold */
+  --accent-color: #40e0d0;       /* Turquise */
+  --highlight-color: #ff69b4;    /* Hot Pink */
+  --extra-color: #8a2be2;        /* Blue Violet */
+  --background-color: #fff8dc;   /* Cornsilk */
+  --text-color: #ff69b4;         /* Dark Gray */
+  --button-color: #32cd32;       /* Lime Green */
+  --button-hover-color: #228b22; /* Forest Green */ 
 }
 
 body {
   font-family: var(--font-family);
-  color: var(--primary-color);
-  background-color: var(--highlight-color);
+  color: var(--text-color);
+  background-color: var(--background-color);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  padding: 0 10px;
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--text-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.5 rem;
+  margin: 0.5rem 0;
 }
 
 /* Header */
 header {
   background-color: var(--extra-color);
-  padding: 1rem 1rem;
+  padding: 0 1rem;
   position: fixed;
-  z-index: 90;
+  z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px var(--highlight-color);
+  box-shadow: 0 2px 2px var(--text-color);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -54,24 +77,38 @@ header a {
   color: inherit;
 }
 
+#logo {
+  font-family: var(--logo-font);
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
 #menu {
-  font-size: 110%;
-  letter-spacing: 4px;
+  font-size: 1.2rem;
   list-style-type: none;
+  letter-spacing: 4px;
+  display: flex;
+  gap: 18px;
 }
 
 #menu li {
-  margin-bottom: 1em;
+  margin: 0;
 }
 
-.active {
-  border-bottom: 1px solid var(--accent-color);
+#menu a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease-in-out;
+}
+
+#menu a:hover, #menu a.active {
+  color: var(--accent-color);
 }
 
 /* Navbar style */
 nav {
   position: absolute;
-  background-color: var(--highlight-color);
+  background-color: inherit;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -88,31 +125,79 @@ nav {
   display: none;
 }
 
-/* Main */
-main {
-  background-color: var(--accent-color);
-  flex: 1 0 auto;
-  padding-top: 5rem;
+.navbar-toggle-label {
+  font-size: 2rem;
 }
 
-/* Footer */
-#social-networks {
-  text-align: center;
+/* Main */
+main {
+  flex: 1 0 auto;
+  margin-top: 80px;
   display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  align-items: center;
+  text-align: center;
+}
+
+/* Profile section */
+#zulayha {
+  width: 100%;
+  background: url("../images/Zuleyha-Profile.png") no-repeat center center/cover;
+  position: relative;
   padding: 20px 0;
+}
+
+#info {
+  background-color: rgba(240, 224, 225, 0.6);
+  padding: 20px;
+  border: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#info > h2, #info >h3 {
+  color: var(--text-color);
+}
+/* Footer */
+footer {
+  background-color: var(--highlight-color);
+  padding: 20px 0;
+  text-align: center;
+}
+#social-networks {
+  display: flex;
+  gap: 15px;
   justify-content: space-evenly;
   list-style-type: none;
-  background-color: var(--hot-pink-color);
 }
 
 #social-networks i {
-  font-size: xx-large;
-  padding: 20px 0;
-  color: var(--yellow-color);
+  font-size: 2rem;
+  color: var(--button-color);
+  transition: color 0.3s ease-in-out;
 }
 
 #logo {
   font-family: var(--logo-font);
   font: bold 2rem;
   color: var(--primary-color);
+}
+
+a {
+  text-decoration: 0;
+  cursor: pointer;
+  color: red;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+a:active {
+  color: red;
 }
