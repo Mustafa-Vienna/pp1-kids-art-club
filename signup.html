@@ -47,16 +47,15 @@
         <input type="text" name="last_name" id="l_name" class="text-input" placeholder="Enter your lastname" required>
         <br>
         <label for="email">Email Address: </label>
-        <input type="text" name="email_address" id="email" class="text-input" placeholder="Enter your email address" required>
+        <input type="email" name="email_address" id="email" class="text-input" placeholder="Enter your email address" required>
         <br>
-        <label for="phone">Phone Number: </label>
         <div class="phone-input">
-          <span class="country-code">+90</span>
+        <label for="phone">Phone Number: <span class="country-code">+90</span></label>
           <input type="tel" name="phone_nr" id="phone" class="text-input" placeholder="Enter your phone number" required>
         </div>
         <br>
         <label for="age">Child's Age: </label>
-        <input type="number" name="child_age" id="age" class="text-input" placeholder="Enter child's age" required>
+        <input type="text" name="child_age" id="age" class="text-input" placeholder="Enter child's age" required>
         <br>
         <label for="art-interests">Art Interests: </label>
         <select name="art_options" id="art-interests" class="text-input" required>
@@ -67,6 +66,7 @@
           <option value="drawing">Drawing</option>
         </select>
         <br>
+        <button type="submit" class="submit_button">Sign Up</button>
       </form>
     </section>
   </main>
