@@ -33,10 +33,9 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding: 0 10px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: var(--heading-font);
   color: var(--text-color);
   text-transform: uppercase;
@@ -54,20 +53,23 @@ h2 {
   margin: 1rem 0;
 }
 
-h3 {
+p {
+  font-family: var(--font-family);
   font-size: 1.5 rem;
   margin: 0.5rem 0;
+  padding: 0 1rem;
 }
 
 /* Header */
 header {
   background-color: var(--extra-color);
-  padding: 0 1rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
   box-shadow: 0 2px 2px var(--text-color);
+  padding: 0.5rem 1rem;
+  position: fixed;
   display: flex;
+  z-index: 3;
+  top: 0;
+  width: 100%;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -79,7 +81,7 @@ header a {
 
 #logo {
   font-family: var(--logo-font);
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--primary-color);
 }
 
@@ -140,20 +142,31 @@ main {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 1rem;
+  line-height: 2em;
+  letter-spacing: 3px;
+}
 /* Profile section */
-#zulayha {
+#zulayha-profile {
   width: 100%;
-  background: url("../images/Zuleyha-Profile.png") no-repeat center center/cover;
+  background: url("../images/Zuleyha-Profile.webp") no-repeat center center/cover;
   position: relative;
-  padding: 20px 0;
+  height: 100vh;
 }
 
-#info {
+#info-text {
   background-color: rgba(240, 224, 225, 0.6);
-  padding: 20px;
-  border: 10px;
-  max-width: 600px;
-  margin: auto;
+  font-size: 110%;
+  text-align: center;
+  margin: 10%;
+  position: relative;
+  bottom: 10px;
+  width: 80%;
+  min-height: 150px;
+  padding: 10px;
 }
 
 #info > h2, #info >h3 {

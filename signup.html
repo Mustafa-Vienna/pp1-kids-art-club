@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Discover the Kids Art Club in Istanbul, Turkey. Join us for painting classes including watercolor and oil painting. Located in Kucukcekmece and Sefakoy Merkez. Unleash your creativity with us!">
+  <meta name="keywords"
+    content="Kids Art Club, Istanbul, Turkey, painting classes, watercolor, oil painting, children's art, creative activities, art education, Uyghur kids, Turkish, Kucukcekmece, Sefakoy Merkez">
+  <title>Kids Art Club</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html">
+      <h1 id="logo">Kids Art Club  <i class="fa-solid fa-palette"></i></h1></a>
+    <!-- Hamburger menu for mobile nav -->
+    <input type="checkbox" id="navbar-toggle" name="navbar-toggle">
+    <label for="navbar-toggle" class="navbar-toggle-label" aria-label="burger menu">
+      <i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="signup.html" class="active">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="singup">
+      <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+        <h2>Signup for Kids Art Club!</h2>
+        <label for="f_name">First Name: </label>
+        <input type="text" name="first_name" id="f_name" class="text-input" placeholder="Enter your firstname" required>
+        <br>
+        <label for="l_name">Last Name: </label>
+        <input type="text" name="last_name" id="l_name" class="text-input" placeholder="Enter your lastname" required>
+        <br>
+        <label for="email">Email Address: </label>
+        <input type="text" name="email_address" id="email" class="text-input" placeholder="Enter your email address" required>
+        <br>
+        <label for="phone">Phone Number: </label>
+        <div class="phone-input">
+          <span class="country-code">+90</span>
+          <input type="tel" name="phone_nr" id="phone" class="text-input" placeholder="Enter your phone number" required>
+        </div>
+        <br>
+        <label for="age">Child's Age: </label>
+        <input type="number" name="child_age" id="age" class="text-input" placeholder="Enter child's age" required>
+        <br>
+        <label for="art-interests">Art Interests: </label>
+        <select name="art_options" id="art-interests" class="text-input" required>
+          <option value="" disabled selected>Please select an option</option>
+          <option value="watercolor">Watercolor Painting</option>
+          <option value="oil_painting">Oil Painting</option>
+          <option value="sketching">Sketching</option>
+          <option value="drawing">Drawing</option>
+        </select>
+        <br>
+      </form>
+    </section>
+  </main>
+
+  <!--- Footer -->
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)">
+          <i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+          aria-label="Visit our YouTube page (opens in a new tab)">
+          <i class="fa-brands fa-youtube-square"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)">
+          <i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/ef3b9e6deb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
