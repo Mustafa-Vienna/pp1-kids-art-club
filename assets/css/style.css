@@ -180,13 +180,15 @@ main {
   width: 100%;
   height: auto;
   margin: 20px auto;
+  display: flex;
+  justify-content: center;
 }
 
 .profile-img {
   padding: 10px;
   float: left;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
 }
 
@@ -204,13 +206,19 @@ main {
 .container-main span {
   color: var(--primary-color);
   font-family: var(--logo-font);
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 span > i {
   color: var(--secondary-color);
   font-size: 3rem;
 }
+
+span:nth-of-type(2) i {
+  color: var(--background-color);
+  font-size: 2rem;
+}
+
 .container-main img {
   max-width: 100%;
   height: auto;
@@ -225,6 +233,7 @@ span > i {
 }
 #photos {
   line-height: 0;
+  background-color: var(--placeholder-color);
 }
 
 
