@@ -15,21 +15,20 @@
   --heading-font: 'Roboto', sans-serif;
   --logo-font: 'Fredoka One', cursive;
   /* colors */
-  --primary-color: #ff6347;         /* Tomato Red */
-  --secondary-color: #ffd700;       /* Gold */
-  --accent-color: #40e0d0;          /* Turquise */
-  --highlight-color: #ff69b4;       /* Hot Pink */
-  --extra-color: #8a2be2;           /* Blue Violet */
-  --background-color: #fff8dc;      /* Cornsilk */
-  --text-color: #ff69b4;            /* Dark Gray */
-  --button-color: #40e0d0;          /* Turquoise */
-  --button-hover-color: #228b22;    /* Darker Green */
+  --primary-color: rgba(26, 4, 4, 0.8);                  /* Tomato Red */
+  --secondary-color: rgba(164, 41, 168, 0.868);                /* Gold */
+  --logo-color: #E7CEE3;                   /* Thistle */
+  --highlight-color: #ff69b4;                /* Hot Pink */
+  --border-color: rgba(113, 114, 117, 0.826);     /* Blue Violet */
+  --background-color: #FFB8D1;               /* Lavnder Pink */
+  --button-color: #E0E1E9;         /* Ghost White */
+  --hover-color: #DDFDFE;      /* Darker Green */
   --input-border-color: #636363;    /* Granite Gray */
 }
 
 body {
   font-family: var(--font-family);
-  color: var(--text-color);
+  color: var(--primary-color);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -37,8 +36,8 @@ body {
 
 /* Header */
 header {
-  background-color: var(--extra-color);
-  box-shadow: 0 2px 2px var(--text-color);
+  background-color: var(--background-color);
+  box-shadow: 0 2px 2px var(--primary-color);
   padding: 0 1rem;
   position: fixed;
   display: flex;
@@ -55,7 +54,7 @@ header a {
 
 h1, h2 {
   font-family: var(--heading-font);
-  color: #000;
+  color: var(--primary-color);
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
@@ -73,7 +72,7 @@ h2 {
 
 p {
   font-family: var(--font-family);
-  color: #000;
+  color: var(--primary-color);
   font-size: 1.5 rem;
   margin: 0;
   padding: 0 1rem;
@@ -82,7 +81,9 @@ p {
 #logo {
   font-family: var(--logo-font);
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--logo-color);
+  -webkit-text-stroke: 2px var(--primary-color);
+  -webkit-text-stroke-color: var(--border-color);
 }
 
 #menu {
@@ -91,7 +92,7 @@ p {
   font-weight: bolder;
   list-style-type: none;
   letter-spacing: 2px;
-  gap: 18px;
+  gap: 1rem;
 }
 
 #menu li {
@@ -99,22 +100,28 @@ p {
 }
 
 .active {
-  border-bottom: 2px dotted #e0c947;
+  border-bottom: 2px solid var(--border-color);
 }
+
 #menu a {
   text-decoration: none;
   color: var(--primary-color);
   transition: color 0.3s ease-in-out;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
 }
 
-#menu a:hover, #menu a.active {
-  color: var(--accent-color);
+#menu a:hover,
+#menu a.active {
+  color: var(--hover-color);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* Navbar style */
 nav {
   position: absolute;
-  background-color: #fff;
+  background-color: inherit;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -222,13 +229,13 @@ main {
 
 /* Form Styling */
 form {
-  background-color: #e5d2d2;
-  padding: 10px 10% 0 10%;
-  border-radius: 20px;
+  background-color: var(--button-color);
+  padding: 2rem;
+  border-radius: 2rem;
   box-shadow: 0 4px 8px rgba(240, 224, 225, 0.1);
   max-width: 75%;
   align-items: center;
-  margin: auto;
+  margin: 2rem auto;
   flex-grow: 1;
 }
 
@@ -259,12 +266,12 @@ from .text-input::placeholder {
 }
 
 form .submit_button {
-  background-color: var(--button-color);
+  background-color: var(--secondary-color);
   color: #fff;
-  padding: 10px 20px;
-  margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
 }
 
 form .submit_button:hover {
@@ -273,7 +280,7 @@ form .submit_button:hover {
 
 /* Footer */
 footer {
-  background-color: var(--highlight-color);
+  background-color: var(--background-color);
   padding: 20px 0;
   text-align: center;
 }
