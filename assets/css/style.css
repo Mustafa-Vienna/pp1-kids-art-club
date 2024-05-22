@@ -30,15 +30,32 @@
 body {
   font-family: var(--font-family);
   color: var(--text-color);
-  background-color: var(--background-color);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
+/* Header */
+header {
+  background-color: var(--extra-color);
+  box-shadow: 0 2px 2px var(--text-color);
+  padding: 0 1rem;
+  position: fixed;
+  display: flex;
+  z-index: 3;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1, h2 {
   font-family: var(--heading-font);
-  color: var(--text-color);
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
@@ -56,28 +73,10 @@ h2 {
 
 p {
   font-family: var(--font-family);
+  color: #000;
   font-size: 1.5 rem;
-  margin: 0.5rem 0;
+  margin: 0;
   padding: 0 1rem;
-}
-
-/* Header */
-header {
-  background-color: var(--extra-color);
-  box-shadow: 0 2px 2px var(--text-color);
-  padding: 0.5rem 1rem;
-  position: fixed;
-  display: flex;
-  z-index: 3;
-  top: 0;
-  width: 100%;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-header a {
-  text-decoration: none;
-  color: inherit;
 }
 
 #logo {
@@ -87,17 +86,21 @@ header a {
 }
 
 #menu {
-  font-size: 1.2rem;
+  font-family: var(--heading-font);
+  font-size: 110%;
+  font-weight: bolder;
   list-style-type: none;
-  letter-spacing: 4px;
-  display: flex;
+  letter-spacing: 2px;
   gap: 18px;
 }
 
 #menu li {
-  margin: 0;
+  margin: 1rem;
 }
 
+.active {
+  border-bottom: 2px dotted #e0c947;
+}
 #menu a {
   text-decoration: none;
   color: var(--primary-color);
@@ -111,11 +114,11 @@ header a {
 /* Navbar style */
 nav {
   position: absolute;
-  background-color: inherit;
+  background-color: #fff;
   width: 100%;
   left: 0;
   padding: 0 1rem;
-  box-shadow: 0 2px 2px var(--accent-color);
+  box-shadow: 0 2px 2px #3a3a3a;
   display: none;
   top: 100%;
 }
@@ -135,85 +138,74 @@ nav {
 /* Main */
 main {
   flex: 1 0 auto;
-  margin-top: 80px;
+  margin-top: 48px;
+  /* Hamburger menu displayed after adding the overflow decelaration */
+  overflow: auto;
+  background-color: #fff;
+}
+
+/* Hero section */
+#main-hero {
+  border-bottom: 2px solid#000;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  background: url("../images/tranditional-clothes.webp") no-repeat center center/cover;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  height: 400px;
+  gap: 30px;
+
+  /* add fallback background color in case the image does not load */
+  background-color: rgba(251, 200, 130, 0.6);
+}
+
+/*  About Section */
+#about {
   display: flex;
   flex-direction: column;
-  padding: 1rem 0;
-  align-items: center;
-  text-align: center;
+  padding: 0 8px;
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
-  text-align: left;
-  padding: 1rem;
-  line-height: 2em;
-  letter-spacing: 3px;
-}
-/* Profile section */
-#zulayha-profile {
+.profile {
   width: 100%;
-  background: url("../images/Zuleyha-Profile.webp") no-repeat center center/cover;
-  position: relative;
-  height: 100vh;
+  height: auto;
+  margin: 20px auto;
 }
 
-#info-text {
-  background-color: rgba(240, 224, 225, 0.6);
-  font-size: 110%;
-  text-align: center;
-  margin: 10%;
-  position: relative;
-  bottom: 10px;
-  width: 80%;
-  min-height: 150px;
+.profile-img {
   padding: 10px;
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
-#info > h2, #info >h3 {
-  color: var(--text-color);
+#desc-text {
+  margin: 0 auto;
+  max-width: 650px;
 }
-/* Footer */
-footer {
-  background-color: var(--highlight-color);
-  padding: 20px 0;
+
+.about-zuleyha h2 {
+  text-align: justify;
+}
+
+.container-main {
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
-#social-networks {
-  display: flex;
-  gap: 15px;
-  justify-content: space-evenly;
-  list-style-type: none;
+
+.container-main span {
+  color: #e0c947;
+  font-size: larger;
 }
 
-#social-networks i {
-  font-size: 2rem;
-  color: var(--button-color);
-  transition: color 0.3s ease-in-out;
-}
-
-#logo {
-  font-family: var(--logo-font);
-  font: bold 2rem;
-  color: var(--primary-color);
-}
-
-a {
-  text-decoration: 0;
-  cursor: pointer;
-  color: red;
-}
-
-a:visited {
-  color: #fff;
-}
-
-a:hover {
-  color: dodgerblue;
-}
-
-a:active {
-  color: red;
+.container-main img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Form Styling */
@@ -264,4 +256,33 @@ form .submit_button {
 
 form .submit_button:hover {
   background-color: var(--button-hover-color);
+}
+
+/* styling gallery */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+#photos {
+  line-height: 0;
+}
+
+/* Footer */
+footer {
+  background-color: var(--highlight-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+#social-networks {
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 2rem;
+  color: var(--button-color);
+  transition: color 0.3s ease-in-out;
 }
