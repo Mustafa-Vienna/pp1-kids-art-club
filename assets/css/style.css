@@ -100,7 +100,7 @@ p {
 }
 
 .active {
-  border-bottom: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 #menu a {
@@ -113,7 +113,7 @@ p {
 
 #menu a:hover,
 #menu a.active {
-  color: var(--hover-color);
+  color: var(--border-color);
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -195,10 +195,6 @@ main {
   max-width: 650px;
 }
 
-.about-zuleyha h2 {
-  text-align: justify;
-}
-
 .container-main {
   width: 100%;
   margin: 0 auto;
@@ -206,10 +202,15 @@ main {
 }
 
 .container-main span {
-  color: #e0c947;
-  font-size: larger;
+  color: var(--primary-color);
+  font-family: var(--logo-font);
+  font-size: 2rem;
 }
 
+span > i {
+  color: var(--secondary-color);
+  font-size: 3rem;
+}
 .container-main img {
   max-width: 100%;
   height: auto;
