@@ -15,15 +15,15 @@
   --heading-font: 'Roboto', sans-serif;
   --logo-font: 'Fredoka One', cursive;
   /* colors */
-  --primary-color: rgba(26, 4, 4, 0.8);                  /* Tomato Red */
-  --secondary-color: rgba(164, 41, 168, 0.868);                /* Gold */
-  --logo-color: #E7CEE3;                   /* Thistle */
-  --placeholder-color: #f5f5f5e7;                /* White Smoke */
+  --primary-color: rgba(26, 4, 4, 0.8);           /* Tomato Red */
+  --secondary-color: rgba(164, 41, 168, 0.868);   /* Gold */
+  --logo-color: #E7CEE3;                          /* Thistle */
+  --placeholder-color: #f5f5f5e7;                 /* White Smoke */
   --border-color: rgba(113, 114, 117, 0.826);     /* Blue Violet */
-  --background-color: #FFB8D1;               /* Lavnder Pink */
-  --button-color: #E0E1E9;         /* Ghost White */
-  --hover-color: #DDFDFE;      /* Darker Green */
-  --input-border-color: #3a3a3a;    /* Granite Gray */
+  --background-color: #FFB8D1;                    /* Lavnder Pink */
+  --button-color: #E0E1E9;                        /* Ghost White */
+  --hover-color: #DDFDFE;                         /* Darker Green */
+  --input-border-color: #3a3a3a;                  /* Granite Gray */
 }
 
 body {
@@ -89,16 +89,9 @@ p {
   margin: 1rem;
 }
 
-.active {
-  border-bottom: 2px solid var(--secondary-color);
-}
-
 #menu a {
   text-decoration: none;
   color: var(--primary-color);
-  transition: color 0.3s ease-in-out;
-  white-space: nowrap;
-  -webkit-tap-highlight-color: transparent;
 }
 
 #menu a:hover,
@@ -135,24 +128,21 @@ nav {
 /* Main */
 main {
   flex: 1 0 auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
   overflow: auto;
-  background-color: #fff;
 }
 
 /* Hero section */
 #main-hero {
   border-bottom: 2px solid#000;
-  padding: 20px;
+  padding: 1.1rem;
   display: flex;
   width: 100%;
   background: url("../images/tranditional_clothes.webp") no-repeat center center/cover;
   position: relative;
   align-items: center;
   justify-content: flex-start;
-  height: 400px;
-  gap: 30px;
-
+  height: 28rem;
   /* add fallback background color in case the image does not load */
   background-color: rgba(251, 200, 130, 0.6);
 }
@@ -161,29 +151,29 @@ main {
 #about {
   display: flex;
   flex-direction: column;
-  padding: 0 8px;
-  margin-bottom: 20px;
+  padding: 0 0.5rem;
+  margin-bottom: 1.3rem;
 }
 
 .profile {
   width: 100%;
   height: auto;
-  margin: 20px auto;
+  margin: 1.2rem auto;
   display: flex;
   justify-content: center;
 }
 
 .profile-img {
-  padding: 10px;
+  padding: 0.6rem;
   float: left;
-  height: 300px;
-  width: 300px;
+  height: 19rem;
+  width: 19rem;
   border-radius: 50%;
 }
 
 #desc-text {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 40rem;
 }
 
 .container-main {
@@ -261,7 +251,7 @@ form .text-input {
 }
 
 #signup-form h2 {
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
   font-size: 1.5rem;
 }
 
@@ -284,13 +274,13 @@ form .text-input {
 /* Footer */
 footer {
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 1.2rem 0;
   text-align: center;
 }
 
 #social-networks {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
   justify-content: space-evenly;
   list-style-type: none;
 }
@@ -308,7 +298,7 @@ footer {
   }
 
   main {
-    margin-top: 47px;
+    margin-top: 2.8rem;
     overflow: auto;
   }
 
@@ -357,7 +347,7 @@ footer {
 
     /* Main content */
     main {
-      margin-top: 79px;
+      margin-top: 4.9rem;
       overflow: auto;
     }
 
