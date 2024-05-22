@@ -208,14 +208,27 @@ main {
   height: auto;
 }
 
+/* styling gallery */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+  border-radius: 2px;
+  height: auto;
+}
+#photos {
+  line-height: 0;
+}
+
+
 /* Form Styling */
 form {
-  background-color: var(--secondary-color);
+  background-color: #e5d2d2;
   padding: 10px 10% 0 10%;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(240, 224, 225, 0.1);
-  max-width: 330px;
-  width: 100%;
+  max-width: 75%;
+  align-items: center;
+  margin: auto;
   flex-grow: 1;
 }
 
@@ -258,15 +271,6 @@ form .submit_button:hover {
   background-color: var(--button-hover-color);
 }
 
-/* styling gallery */
-#photos img {
-  width: 100%;
-  line-height: 1em;
-}
-#photos {
-  line-height: 0;
-}
-
 /* Footer */
 footer {
   background-color: var(--highlight-color);
@@ -285,4 +289,85 @@ footer {
   font-size: 2rem;
   color: var(--button-color);
   transition: color 0.3s ease-in-out;
+}
+
+/* Bigger Phone Screens (example 576 and up) */
+@media screen and (min-width: 574px) {
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
+
+  main {
+    margin-top: 47px;
+    overflow: auto;
+  }
+
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+
+  #form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 25px;
+    align-content: center;
+  }
+
+  /* Tablet screens (example 768px and up) */
+  @media screen and (min-width: 768px) {
+    nav {
+      display: block;
+      position: relative;
+      box-shadow: none;
+      width: fit-content;
+      padding-right: 1rem;
+    }
+    
+    #menu {
+      display: flex;
+    }
+
+    #menu>li {
+      padding-left: 1rem;
+    }
+
+    .navbar-toggle-label {
+      display: none;
+    }
+
+    #logo {
+      font-size: 250%;
+      line-height: 75px;
+      margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+      margin-top: 79px;
+      overflow: auto;
+    }
+
+    /* Gallery page */
+    #photos {
+      column-count: 3;
+    }
+
+    /* Form */ 
+    /* #signup {
+      background-position: center;
+      position: relative;
+    }
+
+    #signup-form {
+      max-width: 400px;
+      position: absolute;
+      right: 10%;
+      top: 150%;
+    } */
+  }
+  
 }
