@@ -8,25 +8,25 @@
   box-sizing: border-box;
 }
 
-/* General style */
+/* Define custom fonts and colore palette */
 :root {
   /* Fonts */
-  --font-family: "Open Sans", sans-serif;
-  --heading-font: "Roboto", sans-serif;
-  --logo-font: "Fredoka One", cursive;
+  --font-family: "Open Sans", sans-serif;            /* Main font */
+  --heading-font: "Roboto", sans-serif;              /* Font for headings */
+  --logo-font: "Fredoka One", cursive;               /* Font for Logo */
   /* colors */
-  --primary-color: rgba(26, 4, 4, 0.8); /* Dark Red*/
-  --secondary-color: rgba(164, 41, 168, 0.868); /* Purple */
-  --logo-color: #e7cee3; /* Thistle */
-  --placeholder-color: #f5f5f5e7; /* White Smoke */
-  --border-color: rgba(113, 114, 117, 0.826); /* Blue Violet */
-  --background-color: #ffb8d1; /* Lavnder Pink */
-  --button-color: #e0e1e9; /* Ghost White */
-  --hover-color: #ddfdfe; /* Light Cyan */
-  --input-border-color: #3a3a3a; /* Granite Gray */
+  --primary-color: rgba(26, 4, 4, 0.8);            /* Dark Red*/
+  --secondary-color: rgba(164, 41, 168, 0.868);    /* Purple */
+  --logo-color: #e7cee3;                           /* Thistle */
+  --placeholder-color: #f5f5f5e7;                  /* White Smoke */
+  --border-color: rgba(113, 114, 117, 0.826);      /* Blue Violet */
+  --background-color: #ffb8d1;                     /* Lavnder Pink */
+  --button-color: #e0e1e9;                         /* Ghost White */
+  --hover-color: #ddfdfe;                          /* Light Cyan */
+  --input-border-color: #3a3a3a;                   /* Granite Gray */
 }
 
-body {
+body, html {
   font-family: var(--font-family);
   color: var(--primary-color);
   display: flex;
@@ -35,10 +35,10 @@ body {
 }
 
 .hidden-heading {
-  display: none;
+  display: none;  /* Hide elements with this class */
 }
 
-/* Header */
+/* Header styles */
 header {
   background-color: var(--background-color);
   box-shadow: 0 2px 2px var(--primary-color);
@@ -66,7 +66,6 @@ header a {
 
 #menu {
   font-family: var(--heading-font);
-  font-size: 100%;
   font-weight: bolder;
   list-style-type: none;
   letter-spacing: 2px;
@@ -89,7 +88,7 @@ header a {
   text-underline-offset: 4px;
 }
 
-/* Navbar style */
+/* Navbar styles for Mobile */
 nav {
   position: absolute;
   background-color: inherit;
@@ -102,15 +101,15 @@ nav {
 }
 
 #navbar-toggle:checked ~ nav {
-  display: block;
+  display: block;  /* Show Nav when checkbox is checked */
 }
 
 #navbar-toggle {
-  display: none;
+  display: none; /* Hide checkbox */
 }
 
 .navbar-toggle-label {
-  font-size: 2rem;
+  font-size: 2rem;  /* Large font-size for toggle icon */
 }
 
 h1,
@@ -130,7 +129,7 @@ p {
   padding: 0 1rem;
 }
 
-/* Main */
+/* Main Content Area */
 main {
   flex: 1 0 auto;
   overflow: auto;
@@ -148,8 +147,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   height: 28rem;
-  /* add fallback background color in case the image does not load */
-  background-color: rgba(251, 200, 130, 0.6);
+  background-color: rgba(251, 200, 130, 0.6); /* Fallback background color */
 }
 
 /*  About Section */
@@ -173,8 +171,8 @@ main {
   float: left;
   height: 19rem;
   width: 19rem;
-  border-radius: 50%;
-  box-shadow: 4px 4px 4px 4px var(--border-color);
+  border-radius: 50%;  /* Create a perfect circle */
+  box-shadow: 4px 4px 4px 4px var(--border-color);  /* Add a semi-transparent gray drop shawod with 4px offset, blur, and spread */
 }
 
 #desc-text {
@@ -209,11 +207,9 @@ span:nth-of-type(2) i {
   height: auto;
 }
 
-/* styling gallery */
+/* Gallery Styles */
 #photos img {
   width: 100%;
-  line-height: 1em;
-  border-radius: 2px;
   height: auto;
 }
 #photos {
@@ -229,8 +225,7 @@ form {
   box-shadow: 0 0.25rem 0.5rem var(--border-color);
   max-width: 75%;
   align-items: center;
-  margin: 2rem auto;
-  margin-top: 6rem;
+  margin: 6rem auto 2rem auto; /* Top margin 6rem , others 2rem */
   flex-grow: 1;
   text-align: center;
 }
@@ -238,8 +233,7 @@ form {
 form label {
   display: block;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
-  margin-top: -0.5rem;
+  margin-bottom: -0.5rem 0 0.5rem 0;
 }
 
 form .text-input {
@@ -256,7 +250,7 @@ form .text-input {
   font-style: italic;
 }
 
-#signup-form h2 {
+#signup-form > h2 {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
 }
@@ -277,9 +271,10 @@ form .text-input {
   background-color: var(--hover-color);
 }
 
-/* Footer */
+/* Footer styles */
 footer {
   background-color: var(--background-color);
+  box-shadow: 0 -2px 2px var(--primary-color);
   padding: 1.2rem 0;
   text-align: center;
   bottom: 0;
@@ -301,7 +296,7 @@ footer {
 /* Bigger Phone Screens (example 576 and up) */
 @media screen and (min-width: 574px) {
   #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid var(--input-border-color);
   }
 
   main {
