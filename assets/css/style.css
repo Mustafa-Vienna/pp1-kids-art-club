@@ -15,14 +15,14 @@
   --heading-font: "Roboto", sans-serif;
   --logo-font: "Fredoka One", cursive;
   /* colors */
-  --primary-color: rgba(26, 4, 4, 0.8); /* Tomato Red */
-  --secondary-color: rgba(164, 41, 168, 0.868); /* Gold */
+  --primary-color: rgba(26, 4, 4, 0.8); /* Dark Red*/
+  --secondary-color: rgba(164, 41, 168, 0.868); /* Purple */
   --logo-color: #e7cee3; /* Thistle */
   --placeholder-color: #f5f5f5e7; /* White Smoke */
   --border-color: rgba(113, 114, 117, 0.826); /* Blue Violet */
   --background-color: #ffb8d1; /* Lavnder Pink */
   --button-color: #e0e1e9; /* Ghost White */
-  --hover-color: #ddfdfe; /* Darker Green */
+  --hover-color: #ddfdfe; /* Light Cyan */
   --input-border-color: #3a3a3a; /* Granite Gray */
 }
 
@@ -96,7 +96,7 @@ nav {
   width: 100%;
   left: 0;
   padding: 0 1rem;
-  box-shadow: 0 2px 2px #3a3a3a;
+  box-shadow: 0 2px 2px var(--input-border-color);
   display: none;
   top: 100%;
 }
@@ -230,6 +230,7 @@ form {
   max-width: 75%;
   align-items: center;
   margin: 2rem auto;
+  margin-top: 6rem;
   flex-grow: 1;
   text-align: center;
 }
