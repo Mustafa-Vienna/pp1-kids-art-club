@@ -200,6 +200,7 @@ span > i {
 span:nth-of-type(2) i {
   color: var(--background-color);
   font-size: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .container-main img {
