@@ -1,5 +1,5 @@
-/* Google fonts import */ 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&family=Fredoka+One&display=swap');
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&family=Fredoka+One&display=swap");
 
 /* Wildcard to override default browser style */
 * {
@@ -11,19 +11,19 @@
 /* General style */
 :root {
   /* Fonts */
-  --font-family: 'Open Sans', sans-serif;
-  --heading-font: 'Roboto', sans-serif;
-  --logo-font: 'Fredoka One', cursive;
+  --font-family: "Open Sans", sans-serif;
+  --heading-font: "Roboto", sans-serif;
+  --logo-font: "Fredoka One", cursive;
   /* colors */
-  --primary-color: rgba(26, 4, 4, 0.8);           /* Tomato Red */
-  --secondary-color: rgba(164, 41, 168, 0.868);   /* Gold */
-  --logo-color: #E7CEE3;                          /* Thistle */
-  --placeholder-color: #f5f5f5e7;                 /* White Smoke */
-  --border-color: rgba(113, 114, 117, 0.826);     /* Blue Violet */
-  --background-color: #FFB8D1;                    /* Lavnder Pink */
-  --button-color: #E0E1E9;                        /* Ghost White */
-  --hover-color: #DDFDFE;                         /* Darker Green */
-  --input-border-color: #3a3a3a;                  /* Granite Gray */
+  --primary-color: rgba(26, 4, 4, 0.8); /* Tomato Red */
+  --secondary-color: rgba(164, 41, 168, 0.868); /* Gold */
+  --logo-color: #e7cee3; /* Thistle */
+  --placeholder-color: #f5f5f5e7; /* White Smoke */
+  --border-color: rgba(113, 114, 117, 0.826); /* Blue Violet */
+  --background-color: #ffb8d1; /* Lavnder Pink */
+  --button-color: #e0e1e9; /* Ghost White */
+  --hover-color: #ddfdfe; /* Darker Green */
+  --input-border-color: #3a3a3a; /* Granite Gray */
 }
 
 body {
@@ -101,7 +101,7 @@ nav {
   top: 100%;
 }
 
-#navbar-toggle:checked~nav {
+#navbar-toggle:checked ~ nav {
   display: block;
 }
 
@@ -113,7 +113,8 @@ nav {
   font-size: 2rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   text-transform: uppercase;
@@ -141,7 +142,8 @@ main {
   padding: 1.1rem;
   display: flex;
   width: 100%;
-  background: url("../images/tranditional_clothes.webp") no-repeat center center/cover;
+  background: url("../images/tranditional_clothes.webp") no-repeat center
+    center/cover;
   position: relative;
   align-items: center;
   justify-content: flex-start;
@@ -218,7 +220,6 @@ span:nth-of-type(2) i {
   line-height: 0;
   background-color: var(--placeholder-color);
 }
-
 
 /* Form Styling */
 form {
@@ -317,7 +318,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     width: 75%;
-    margin-left: 25px;
+    margin-left: 1.5rem;
     align-content: center;
   }
 
@@ -330,12 +331,12 @@ footer {
       width: fit-content;
       padding-right: 1rem;
     }
-    
+
     #menu {
       display: flex;
     }
 
-    #menu>li {
+    #menu > li {
       padding-left: 1rem;
     }
 
@@ -359,16 +360,16 @@ footer {
       column-count: 3;
     }
 
-   /* Form */ 
+    /* Form */
     #signup {
       background-position: center;
       position: relative;
-      max-width: 400px;
+      max-width: 25rem;
     }
   }
 
   /* Laptops and desktops (example 900px and up to 1199px) */
-  @media screen and (min-width: 992px) and (max-width:1199px){
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
     /* Photos */
     #photos {
       column-count: 4;
@@ -377,8 +378,8 @@ footer {
 
   /* Desktops and larger screens (example 1200px and up) */
   @media screen and (min-width: 1200px) {
-     /* Photos */
-     #photos {
+    /* Photos */
+    #photos {
       column-count: 4;
     }
   }
