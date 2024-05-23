@@ -161,17 +161,18 @@ main {
 .profile {
   width: 100%;
   height: auto;
-  margin: 1.2rem auto;
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
 }
 
 .profile-img {
-  padding: 0.6rem;
+  padding: 0.5rem;
   float: left;
   height: 19rem;
   width: 19rem;
   border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px var(--border-color);
 }
 
 #desc-text {
@@ -292,7 +293,6 @@ footer {
 #social-networks i {
   font-size: 2rem;
   color: var(--primary-color);
-  transition: color 0.3s ease-in-out;
   -webkit-text-stroke: 1px rgb(163, 10, 10);
 }
 
@@ -359,18 +359,27 @@ footer {
       column-count: 3;
     }
 
-    /* Form */ 
-    /* #signup {
+   /* Form */ 
+    #signup {
       background-position: center;
       position: relative;
-    }
-
-    #signup-form {
       max-width: 400px;
-      position: absolute;
-      right: 10%;
-      top: 150%;
-    } */
+    }
   }
-  
+
+  /* Laptops and desktops (example 900px and up to 1199px) */
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    /* Photos */
+    #photos {
+      column-count: 4;
+    }
+  }
+
+  /* Desktops and larger screens (example 1200px and up) */
+  @media screen and (min-width: 1200px) {
+     /* Photos */
+     #photos {
+      column-count: 4;
+    }
+  }
 }
