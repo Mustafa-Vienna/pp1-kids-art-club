@@ -21,7 +21,8 @@
   <!-- Header -->
   <header>
     <a href="index.html">
-      <h1 id="logo">Kids Art Club  <i class="fa-solid fa-palette"></i></h1></a>
+      <h1 id="logo">Kids Art Club <i class="fa-solid fa-palette"></i></h1>
+    </a>
     <!-- Hamburger menu for mobile nav -->
     <input type="checkbox" id="navbar-toggle" name="navbar-toggle">
     <label for="navbar-toggle" class="navbar-toggle-label" aria-label="burger menu">
@@ -39,29 +40,33 @@
   <main>
     <!-- Contact Us Form -->
     <div id="contact-container">
-    <section id="singup">
-      <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
-        <h2>Signup for Kids Art Club!</h2>
-        <label for="f_name">First Name: </label>
-        <input type="text" name="first_name" id="f_name" class="text-input" placeholder="Enter your firstname" required pattern="[A-Za-z]+" title="Only letters are allowed." maxlength="12">
-        <label for="l_name">Last Name: </label>
-        <input type="text" name="last_name" id="l_name" class="text-input" placeholder="Enter your lastname" required pattern="[A-Za-z]+" title="Only letters are allowed." maxlength="12">
-        <label for="email">Email Address: </label>
-        <input type="email" name="email_address" id="email" class="text-input" placeholder="Enter your email address" required>
-        <label for="age">Child's Age: (6-12) </label>
-        <input type="number" name="child_age" id="age" class="text-input" placeholder="Enter child's age" min="6" max="12" required>
-        <label for="art-interests">Art Interests: </label>
-        <select name="art_options" id="art-interests" class="text-input" required>
-          <option value="" disabled selected>Please select an option</option>
-          <option value="watercolor">Watercolor Painting</option>
-          <option value="oil_painting">Oil Painting</option>
-          <option value="sketching">Sketching</option>
-          <option value="drawing">Drawing</option>
-        </select>
-        <button type="submit" class="submit_button">Sign Up</button>
-      </form>
-    </section>
-  </div>
+      <section id="singup">
+        <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+          <h2>Signup for Kids Art Club!</h2>
+          <label for="f_name">First Name: </label>
+          <input type="text" name="first_name" id="f_name" class="text-input" placeholder="Enter your firstname"
+            required pattern="[A-Za-z]+" title="Only letters are allowed." maxlength="12">
+          <label for="l_name">Last Name: </label>
+          <input type="text" name="last_name" id="l_name" class="text-input" placeholder="Enter your lastname" required
+            pattern="[A-Za-z]+" title="Only letters are allowed." maxlength="12">
+          <label for="email">Email Address: </label>
+          <input type="email" name="email_address" id="email" class="text-input" placeholder="Enter your email address"
+            required>
+          <label for="age">Child's Age: (6-12) </label>
+          <input type="number" name="child_age" id="age" class="text-input" placeholder="Enter child's age" min="6"
+            max="12" required>
+          <label for="art-interests">Art Interests: </label>
+          <select name="art_options" id="art-interests" class="text-input" required>
+            <option value="" disabled selected>Please select an option</option>
+            <option value="watercolor">Watercolor Painting</option>
+            <option value="oil_painting">Oil Painting</option>
+            <option value="sketching">Sketching</option>
+            <option value="drawing">Drawing</option>
+          </select>
+          <button type="submit" class="submit_button">Sign Up</button>
+        </form>
+      </section>
+    </div>
   </main>
 
   <!--- Footer -->
