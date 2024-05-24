@@ -17,7 +17,7 @@
   /* colors */
   --primary-color: rgba(26, 4, 4, 0.8); /* Dark Red*/
   --secondary-color: rgba(164, 41, 168, 0.868); /* Purple */
-  --logo-color: #e7cee3; /* Thistle */
+  --logo-color: #1036bf; /* Thistle */
   --placeholder-color: #f5f5f5e7; /* White Smoke */
   --border-color: rgba(113, 114, 117, 0.826); /* Blue Violet */
   --background-color: #ffb8d1; /* Lavnder Pink */
@@ -61,7 +61,7 @@ header a {
   font-family: var(--logo-font);
   font-size: 1.6rem;
   color: var(--primary-color);
-  -webkit-text-stroke: 2px var(--logo-color); /* Outline text */
+  /* -webkit-text-stroke: 2px var(--logo-color);  */
 }
 
 #menu {
