@@ -11,19 +11,19 @@
 /* Define custom fonts and colore palette */
 :root {
   /* Fonts */
-  --font-family: "Open Sans", sans-serif;            /* Main font */
-  --heading-font: "Roboto", sans-serif;              /* Font for headings */
-  --logo-font: "Fredoka One", cursive;               /* Font for Logo */
+  --font-family: "Open Sans", sans-serif; /* Main font */
+  --heading-font: "Roboto", sans-serif; /* Font for headings */
+  --logo-font: "Fredoka One", cursive; /* Font for Logo */
   /* colors */
-  --primary-color: rgba(26, 4, 4, 0.8);            /* Dark Red*/
-  --secondary-color: rgba(164, 41, 168, 0.868);    /* Purple */
-  --logo-color: #e7cee3;                           /* Thistle */
-  --placeholder-color: #f5f5f5e7;                  /* White Smoke */
-  --border-color: rgba(113, 114, 117, 0.826);      /* Blue Violet */
-  --background-color: #ffb8d1;                     /* Lavnder Pink */
-  --button-color: #e0e1e9;                         /* Ghost White */
-  --hover-color: #ddfdfe;                          /* Light Cyan */
-  --input-border-color: #3a3a3a;                   /* Granite Gray */
+  --primary-color: rgba(26, 4, 4, 0.8); /* Dark Red*/
+  --secondary-color: rgba(164, 41, 168, 0.868); /* Purple */
+  --logo-color: #e7cee3; /* Thistle */
+  --placeholder-color: #f5f5f5e7; /* White Smoke */
+  --border-color: rgba(113, 114, 117, 0.826); /* Blue Violet */
+  --background-color: #ffb8d1; /* Lavnder Pink */
+  --button-color: #e0e1e9; /* Ghost White */
+  --hover-color: #ddfdfe; /* Light Cyan */
+  --input-border-color: #3a3a3a; /* Granite Gray */
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 }
 
 .hidden-heading {
-  display: none;  /* Hide elements with this class */
+  display: none; /* Hide elements with this class */
 }
 
 /* Header styles */
@@ -43,13 +43,13 @@ header {
   background-color: var(--background-color);
   box-shadow: 0 2px 2px var(--primary-color);
   top: 0;
-  padding: 0 1rem;  /* Horizontal padding */
+  padding: 0 1rem; /* Horizontal padding */
   display: flex;
   z-index: 3;
   width: 100%;
   justify-content: space-between; /* space out header children */
   align-items: center; /* center children vertically */
-  position: sticky;  /* Stick to top on scroll */
+  position: sticky; /* Stick to top on scroll */
 }
 
 header a {
@@ -61,15 +61,15 @@ header a {
   font-family: var(--logo-font);
   font-size: 1.6rem;
   color: var(--primary-color);
-  -webkit-text-stroke: 2px var(--logo-color);  /* Outline text */
+  -webkit-text-stroke: 2px var(--logo-color); /* Outline text */
 }
 
 #menu {
   font-family: var(--heading-font);
   font-weight: bolder;
-  list-style-type: none;  /* Remove list bullets */
+  list-style-type: none; /* Remove list bullets */
   letter-spacing: 2px;
-  gap: 1rem;   /* Space between menu items */
+  gap: 1rem; /* Space between menu items */
 }
 
 #menu li {
@@ -85,7 +85,7 @@ header a {
 #menu a.active {
   color: var(--border-color);
   text-decoration: underline;
-  text-underline-offset: 4px;  /* Offset underline */
+  text-underline-offset: 4px; /* Offset underline */
 }
 
 /* Navbar styles for Mobile */
@@ -95,13 +95,13 @@ nav {
   width: 100%;
   left: 0;
   padding: 0 1rem;
-  box-shadow: 0 2px 2px var(--input-border-color);  /* Add shadow below nav */
+  box-shadow: 0 2px 2px var(--input-border-color); /* Add shadow below nav */
   display: none;
   top: 100%;
 }
 
 #navbar-toggle:checked ~ nav {
-  display: block;  /* Show Nav when checkbox is checked */
+  display: block; /* Show Nav when checkbox is checked */
 }
 
 #navbar-toggle {
@@ -109,7 +109,7 @@ nav {
 }
 
 .navbar-toggle-label {
-  font-size: 2rem;  /* Large font-size for toggle icon */
+  font-size: 2rem; /* Large font-size for toggle icon */
 }
 
 h1,
@@ -171,8 +171,8 @@ main {
   float: left;
   height: 19rem;
   width: 19rem;
-  border-radius: 50%;  /* Create a perfect circle */
-  box-shadow: 4px 4px 4px 4px var(--border-color);  /* Add a semi-transparent gray drop shawod with 4px offset, blur, and spread */
+  border-radius: 50%; /* Create a perfect circle */
+  box-shadow: 4px 4px 4px 4px var(--border-color); /* Add a semi-transparent gray drop shawod with 4px offset, blur, and spread */
 }
 
 #desc-text {
@@ -208,10 +208,10 @@ span:nth-of-type(2) i {
   height: auto;
 }
 
-/* Map */
+/* Map & Contact section*/
 .map-container {
   max-width: 100%;
-  display:flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -234,12 +234,12 @@ span:nth-of-type(2) i {
   padding-bottom: 1.5rem;
 }
 
- #map {
+#map {
   min-width: 90%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
-} 
+}
 
 iframe {
   position: relative;
