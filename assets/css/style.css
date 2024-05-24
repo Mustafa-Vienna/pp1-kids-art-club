@@ -259,7 +259,7 @@ iframe {
 /* Gallery Styles */
 #photos img {
   width: 100%;
-  height: auto;
+  line-height: 1em;
 }
 #photos {
   line-height: 0;
@@ -282,7 +282,6 @@ form {
 form label {
   display: block;
   font-size: 1rem;
-  /* margin-bottom: -0.5rem 0; */
 }
 
 form .text-input {
