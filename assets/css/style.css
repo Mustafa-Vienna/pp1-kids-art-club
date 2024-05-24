@@ -274,7 +274,7 @@ form {
 form label {
   display: block;
   font-size: 1rem;
-  margin-bottom: -0.5rem 0 0.5rem 0;
+  /* margin-bottom: -0.5rem 0; */
 }
 
 form .text-input {
