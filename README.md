@@ -20,7 +20,7 @@ This website was build as part of a full-stack software development program at C
 
 * [Design](#design)
   * [Color Scheme](#color-scheme)
-  * [Reasoning Behind Color Choices](#color-selection)
+  * [Reasoning Behind Color Choices](#reasoning-behind-color-choices)
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 
@@ -72,39 +72,39 @@ The Kids Art CLub website is designed to attract and serve the following target 
 
 [Go to Contents](#contents)
 
-## User Stories
+### User Stories
 
-### Parents of Young Artists
+#### Parents of Young Artists
 
 1. **As a parent**, I want to find art classes for my child, so they can develop their creativity.
 2. **As a parent**, I want to see students artwork, so i can judge the quality of the classes.
 3. **As a parent**, I want easy access to class schedules and enrollment info, so I can sign up my child quickly.
 
-### Young Artists (Children)
+#### Young Artists (Children)
 
 1. **As a young artist**, I want to join a community of kids who love art, so I can make new friends.
 2. **As a young artist**, I wanto to showcase my artwork on the website, so others can see my creations.
 3. **As a young artist**, I want to learn new art techniques, so I can improve my skills.
 
-### Art Enthusiasts and Supporters
+#### Art Enthusiasts and Supporters
 
 1. **As an art enthusiast**, I want to discover young artists, so I can support their growth.
 2. **As an art enthusiast**, I want to stay imformed about the club's activities, so I can participate.
 3. **As an art enthusiast**, I want to donate or sponsor the club, so I can help provide resources.
 
-### Educational Institutions and Teachers
+#### Educational Institutions and Teachers
 
 1. **As a teacher**, I want to collaborate with the Kids Art Club, so I can offer more art resources to my students.
 2. **As a teacher**, I want to use the club's resources in my lessons, so I can enhance my teaching.
 3. **As a teacher**, I want to promote the art club to my students, so they can benefit from extra art education.
 
-### Potential Sponsors and Donors
+#### Potential Sponsors and Donors
 
 1. **As a potential sponsor**, I want to know the club's moission and impact, so I can decide to support them.
 2. **As a potential sponsor**, I want to know my donation will be used, so I can see its impact.
 3. **As a potential sponsor**, I want to be involved in events, so I can see the benefits of my support.
 
-### Social Media Followers
+#### Social Media Followers
 
 1. **As a social media follower**, I want regular updates from the Kids Art Club, so I can stay engaged.
 2. **As a social media follower**, I want to join online events or challlenges, so I can interact with the community.
@@ -145,3 +145,76 @@ The color scheme for the Kids Art Club website was choosen to create a warm, inv
 These colors were selected not only for thier aesthetic appeal but also for their ability to create a cohesive and engaging user experience. The combination of warm and cool tones helps to highlight key elements and make the website both attractive and functional.
 
 [Go to Contents](#contents)
+
+### Typography
+
+The Kids Art Club website uses a combination of fonts to create a visually appealing and cohesive design. These fonts were chosen for their readability, versatility, and aesthetic appeal. Below are the details of fonts used:
+
+![Fonts used in Kids Art Club](assets/images/readme/fonts.png)
+
+### Used fonts during this project
+- **Fredoka One**: Imported as it is (Since it only has one style).
+- **Open Sans**: Imported the weights 300, 400, 600, and 800.
+- **Roboto**: Imported regular 400 and bold 600 weights, both in normal and italic styles.
+
+[Go to Contents](#contents)
+
+### Wireframe
+
+#### Home
+
+- Desktop
+
+![Fonts used in Kids Art Club](assets/images/readme/Desktop-Home.png)<br>
+
+- Laptop
+
+![Fonts used in Kids Art Club](assets/images/readme/Laptop-Home.png)<br>
+
+- Tablet
+
+![Fonts used in Kids Art Club](assets/images/readme/Tablet-Home.png)<br>
+
+- Mobile
+
+![Fonts used in Kids Art Club](assets/images/readme/Mobile-Home.png)
+
+#### Gallery
+
+- Desktop
+
+![Fonts used in Kids Art Club](assets/images/readme/Desktop-Gallery.png)<br>
+
+- Laptop
+
+![Fonts used in Kids Art Club](assets/images/readme/Laptop-Gallery.png)<br>
+
+- Tablet
+
+![Fonts used in Kids Art Club](assets/images/readme/Tablet-Gallery.png)<br>
+
+- Larger screen Mobile (576px - 768px)
+
+![Fonts used in Kids Art Club](assets/images/readme/mobile(576-768)-Gallery.png)<br>
+
+- Mobile
+
+![Fonts used in Kids Art Club](assets/images/readme/Mobile-Gallery.png)
+
+#### Sign Up
+
+- Desktop
+
+![Fonts used in Kids Art Club](assets/images/readme/Desktop-Signup.png)<br>
+
+- Laptop
+
+![Fonts used in Kids Art Club](assets/images/readme/Laptop-Signup.png)<br>
+
+- Tablet
+
+![Fonts used in Kids Art Club](assets/images/readme/Tablet-Signup.png)<br>
+
+- Mobile
+
+![Fonts used in Kids Art Club](assets/images/readme/Mobile-Signup.png)
