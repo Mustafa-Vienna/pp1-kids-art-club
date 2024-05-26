@@ -59,9 +59,8 @@ header a {
 
 #logo {
   font-family: var(--logo-font);
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: var(--primary-color);
-  /* -webkit-text-stroke: 2px var(--logo-color);  */
 }
 
 #menu {
