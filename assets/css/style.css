@@ -274,7 +274,7 @@ form {
   box-shadow: 0 0.25rem 0.5rem var(--border-color);
   max-width: 75%;
   align-items: center;
-  margin: 6rem auto 2rem auto; /* Top margin 6rem , others 2rem */
+  margin: 5rem auto; /* Top margin 6rem , others 2rem */
   flex-grow: 1;
   text-align: center;
 }
@@ -342,7 +342,7 @@ footer {
 }
 
 /* Bigger Phone Screens (example 576 and up) */
-@media screen and (min-width: 574px) {
+@media screen and (min-width: 576px) {
   #menu a:hover {
     border-bottom: 1px solid var(--input-border-color);
   }
@@ -356,75 +356,81 @@ footer {
     column-gap: 0;
   }
 
-  #form {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 75%;
-    margin-left: 1.5rem;
-    align-content: center;
+  form {
+  margin: 2rem auto;
+  }
+}
+
+/* Tablet screens (example 768px and up) */
+@media screen and (min-width: 768px) {
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
   }
 
-  /* Tablet screens (example 768px and up) */
-  @media screen and (min-width: 768px) {
-    nav {
-      display: block;
-      position: relative;
-      box-shadow: none;
-      width: fit-content;
-      padding-right: 1rem;
-    }
-
-    #menu {
-      display: flex;
-    }
-
-    #menu > li {
-      padding-left: 1rem;
-    }
-
-    .navbar-toggle-label {
-      display: none;
-    }
-
-    #logo {
-      font-size: 200%;
-      line-height: 5rem;
-      margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-      overflow: auto;
-    }
-
-    /* Gallery page */
-    #photos {
-      column-count: 3;
-    }
-
-    /* Form */
-    #signup {
-      background-position: center;
-      position: relative;
-      max-width: 25rem;
-    }
+  #menu {
+    display: flex;
   }
 
-  /* Laptops and desktops (example 900px and up to 1199px) */
-  @media screen and (min-width: 992px) and (max-width: 1199px) {
-    /* Photos */
-    #photos {
-      column-count: 4;
-    }
+  #menu > li {
+    padding-left: 1rem;
   }
 
-  /* Desktops and larger screens (example 1200px and up) */
-  @media screen and (min-width: 1200px) {
-    /* Photos */
-    #photos {
-      column-count: 4;
-    }
+  .navbar-toggle-label {
+    display: none;
+  }
+
+  #logo {
+    font-size: 200%;
+    line-height: 5rem;
+    margin: 0 0.5rem;
+  }
+
+  /* Main content */
+  main {
+    overflow: 4rem 2rem;
+  }
+
+  /* Gallery page */
+  #photos {
+    column-count: 3;
+  }
+
+  form {
+    margin: 4rem auto;
+  }
+  
+  /* Form */
+  #signup {
+    background-position: center;
+    position: relative;
+    max-width: 25rem;
+  }
+}
+
+/* Laptops and desktops (example 900px and up to 1199px) */
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  /* Photos */
+  #photos {
+    column-count: 4;
+  }
+
+  form {
+    margin: 3rem auto;
+  }
+}
+
+/* Desktops and larger screens (example 1200px and up) */
+@media screen and (min-width: 1200px) {
+  /* Photos */
+  #photos {
+    column-count: 4;
+  }
+
+  form {
+    margin: 6rem auto;
   }
 }
