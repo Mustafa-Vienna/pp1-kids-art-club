@@ -1,4 +1,4 @@
-#Kids Art Club
+# Kids Art Club
 
 ---
 
@@ -15,10 +15,12 @@ This website was build as part of a full-stack software development program at C
 ## CONTENTS
 
 * [User Experience](#target-experience)
+  * [Target Audience](#target-audience)
   * [User Stories](#user-stories)
 
 * [Design](#design)
   * [Color Scheme](#color-scheme)
+  * [Reasoning Behind Color Choices](#color-selection)
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 
@@ -68,6 +70,8 @@ The Kids Art CLub website is designed to attract and serve the following target 
 
 6. **Social Media Followers**: People who follow art-related content on sosial media platforms and can help promote and share the artist's work and ar classes.
 
+[Go to Contents](#contents)
+
 ## User Stories
 
 ### Parents of Young Artists
@@ -106,16 +110,21 @@ The Kids Art CLub website is designed to attract and serve the following target 
 2. **As a social media follower**, I want to join online events or challlenges, so I can interact with the community.
 3. **As a social media follower**, I want to share the club's work on my profiles, so I can help spread awareness.
 
+[Go to Contents](#contents)
 
 ## Design
 
 ### Color Scheme
 
+The color scheme for the Kids Art Club website was choosen to create a warm, inviting, and playful atmosphere that appeals to both children and parents. The following colors were used throughout the site to maintain a consistent and engaging look:
+
 ![Colors used in Kids Art Club](assets/images/readme/root-color.png)
 
 ![Colors used in Kids Art Club](assets/images/readme/color_scheme.png)
  
- The color scheme for the Kids Art Club website was choosen to create a warm, inviting, and playful atmosphere that appeals to both children and parents. The following colors were used throughout the site to maintain a consistent and engaging look:
+[Go to Contents](#contents)
+
+### Reasoning Behind Color Choices
 
  - **Primary Color**:
    - **Dark Red (RGBA(26, 4, 4, 0.8))**: Used for primary element such as header and important highlights to create a strong and bold impression.
@@ -134,3 +143,5 @@ The Kids Art CLub website is designed to attract and serve the following target 
   - **Granite Gray (#3a3a3a)**: Used for input border to ensure form elements are clearly defined and accessible.
 
 These colors were selected not only for thier aesthetic appeal but also for their ability to create a cohesive and engaging user experience. The combination of warm and cool tones helps to highlight key elements and make the website both attractive and functional.
+
+[Go to Contents](#contents)
