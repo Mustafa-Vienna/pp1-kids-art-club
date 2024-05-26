@@ -68,8 +68,6 @@ The Kids Art CLub website is designed to attract and serve the following target 
 
 6. **Social Media Followers**: People who follow art-related content on sosial media platforms and can help promote and share the artist's work and ar classes.
 
-By catering to those audiences, the website aims to build a supportive community around the artist and her students, helping to spread the jou of art and creativity.
-
 ## User Stories
 
 ### Parents of Young Artists
@@ -108,4 +106,31 @@ By catering to those audiences, the website aims to build a supportive community
 2. **As a social media follower**, I want to join online events or challlenges, so I can interact with the community.
 3. **As a social media follower**, I want to share the club's work on my profiles, so I can help spread awareness.
 
+
+## Design
+
+### Color Scheme
+
+![Colors used in Kids Art Club](assets/images/readme/root-color.png)
+
+![Colors used in Kids Art Club](assets/images/readme/color_scheme.png)
  
+ The color scheme for the Kids Art Club website was choosen to create a warm, inviting, and playful atmosphere that appeals to both children and parents. The following colors were used throughout the site to maintain a consistent and engaging look:
+
+ - **Primary Color**:
+   - **Dark Red (RGBA(26, 4, 4, 0.8))**: Used for primary element such as header and important highlights to create a strong and bold impression.
+
+- **Secondary Color**:
+  - **Purpule (rgba(164, 41, 168, 0.868))**: Used for secondary elements and accents to add vibrancy and creative feel to the design.
+
+- **Accent Colors**:
+  - **Thistle (#1036bf)**: Used for the logo to ensure it stands out with a unique and recognizable color.
+  - **White Smoke (#f5f5f5e7)**: Used for placeholders and page background to keep the design clean.
+
+- **Neutral Colors**:
+  - **Blue Violet (rgba(113, 114, 117, 0.826))**: Used for borders to provide subtle separation between different section.
+  - **Ghost White (#e0e1e9)**: Used for buttons to ensure they are easily identifiable and inviting to click.
+  - **Light Cyan (#ddfdfe)**: Used for singup form background and hover effet to provide a gentle and interactive user experience.
+  - **Granite Gray (#3a3a3a)**: Used for input border to ensure form elements are clearly defined and accessible.
+
+These colors were selected not only for thier aesthetic appeal but also for their ability to create a cohesive and engaging user experience. The combination of warm and cool tones helps to highlight key elements and make the website both attractive and functional.
