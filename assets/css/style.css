@@ -203,10 +203,14 @@ span:nth-of-type(2) i {
   padding-bottom: 1.5rem;
 }
 
-.container-main img {
-  max-width: 100%;
+.wall_paper img {
+  max-width: 80%;
   height: auto;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
 }
+
 
 /* Map & Contact section*/
 .map-container {
@@ -428,6 +432,14 @@ footer {
   /* Photos */
   #photos {
     column-count: 4;
+  }
+
+  .wall_paper img {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
   }
 
   form {
