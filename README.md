@@ -246,3 +246,43 @@ The navbar becomes a hamburger menu. Tap the icon to see links. It saves space a
 The footer contains social media icons for easy access. Users can find icons linking to Facebook, Instagram, and Youtube. These icons are clearly displayed and provide quick links to our social media pages, ensuring users can connect with up on multiple platforms.
 
 ![Footer](assets/images/readme/footer.png)
+
+## Page-Specific Features
+
+### Landing/Home page
+
+The Landing/Home page includes:
+
+- **Hero Image**: A large, attractive image below the header with a background of Uyghur traditional clothes. And the talented artist Zuleyha Abdul's profile picture.
+
+![Hero](assets/images/readme/home1.png)
+
+- **About Zuleyha**: Introduction of Zuleyha Abdul, the art teacher.
+- **Students' Artwork**: An image showcasing various painting by students.
+
+![Student art](assets/images/readme/home2.png)
+
+- **Contact Information**: Details for joining the Kids Art Club, including address, phone, email, and opning hours.
+
+- **Map**: An embedded map to locate the club easily.
+
+![map](assets/images/readme/home3.png)
+
+### Gallery page
+
+The Gallery page features 15 pictures showcasing both pencil sketches and oil paintings. These artworks include creations by both the teacher and students, highlighting the diverse talents within the Kids Art Club.
+
+![map](assets/images/readme/gallery1.png)
+![map](assets/images/readme/gallery2.png)
+
+### Signup page
+
+The Signup page includes a contact form for enrolling in  the kids Art Club. The form collects the following information.
+
+- **First Name**: Text input, required, only letters, max length 12.
+- **Last Name**: Text input, required, only letters, max length 12.
+- **Email Address**: Text input, required, valid email format.
+- **Child's Age**: Number input, required, between 6 and 12.
+- **Art Interests**: Dropdown menu with options for Painting.
+
+![Signup](assets/images/readme/signup.png)
