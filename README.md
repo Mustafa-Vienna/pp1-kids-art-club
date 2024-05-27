@@ -522,3 +522,34 @@ I used a Google Maps embedded map on the website. After running Lighthouse, I en
 ![Lighthouse Best Practices Issue](assets/images/readme/bug3.png)
 
 [Go to Contents](#contents)
+
+## Credits
+
+### Code Used
+
+- **Navigation Bar & Gallery page structures**: Code used from Love running Project Challenge.
+- **Signup Form with Validation**: Code modified from [Stackoverflow](https://stackoverflow.com/questions/76068289/how-do-i-only-allow-the-user-to-type-alpha-characters-in-html-text-input)
+- **Other Code**: Borrowed and modified from students project, w3schools, stackoverflow.
+
+#### Youtube channels
+
+- [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode)
+- [Bro Code](https://www.youtube.com/@BroCodez)
+
+### Content
+
+The inspiration for this website came from the artist Zulayha, who I encountered during my recent vacation in Istanbul. Impressed by her artwork, ambition, and dedication to teaching children through art, I decided to assist her in creating her first ever website. THis project aims to showcase her creative journey and provide platform to share her passion for art with a wider audience. The content reflects her and her students unique artistic vision, incorprating elements of her style while ensuring an engaging and user-friendly experience.
+
+### Media
+
+All the pictures on the Kids Art Club website were provided by the teacher and artist, Zulayha. These images showcase the creativity and artistic expression fostered in her class.
+
+### Acknowledgememts
+
+I want to thank my mentor, Luke. Without his help, I would have struggled with this first project. His clear guidance and feedback always kept me on track.
+
+A big thank you to my classmate/friend Ioan, a senior developer. He game me detailed advice, helped me manage my time, and tested my project.
+
+Thanks also to Lorenz for his quick help and support.
+
+[Go to Contents](#contents)
