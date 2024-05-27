@@ -377,6 +377,15 @@ To set up the project for local development, follow these steps:
 
 [Go to Contents](#contents)
 
+#### Used Git Commands
+
+```bash 
+git add.
+git status
+git commit -m "Your commit masssage"
+git push
+```
+
 ## Testing
 
 ### Manual Testing
