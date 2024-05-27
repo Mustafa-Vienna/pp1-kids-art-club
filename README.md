@@ -308,3 +308,33 @@ The Kids Art Club website is designed with accessibility in mind to ensure all u
 - **Semantic HTML**: The sites uses semantic HTML elements to improve accessibiity and SEO.
 
 Those features help make the Kids Art Club website inclusive and user-friendly for everyone.
+
+## Technologies used
+
+In the Kids Art Club website, the following technologies and tools were used:
+
+- **GitHub**: For version control and project management.
+- **Visual Studio Code**: As the primary code editor for development.
+- **HTML5**: To structure the content of the website. 
+- **CSS3**: For styling and layout of the website.
+- **Google Font**: To enhance typography and design.
+- **Google Map**: For embadding a map to show the club's location.
+- **Google Developer Tools (Lighthouse)**: For performance, accessibility, best-practices, and SEO analysis.
+- **FontAwesome**: For including various icons.
+- **Favicon**: Too add a custom icon to the website.
+- **Balsamiq**: For creating wireframes and planning the website layout.
+- **Color.co**: For selecting and managing color schemes.
+- **WebAIM.org**: For ensuring web accessibility standards.
+- **Fotor.com**: For editing and optimizing images.
+- **TinyPNG**: For compressing images to improve load times.
+- **ui.dev/amiresponsive**: For testing the website's responsiveness on different devices.
+- **Wave**: Forweb accessibility evaluation.
+- **Developer.mozilla.org**: As a reference for web development standards and practices.
+- **W3Schools.com**: For additional tutorials and resources.
+- **Validator.w3.org**: For validating HTML code.
+- **Jigsaw.w3.org**: For validating CSS code.
+
+Those tools and resources helped in creating user-friendly Kids Art Club website.
+
+[Go to Contents](#contents)
+
