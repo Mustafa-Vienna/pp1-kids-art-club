@@ -218,3 +218,31 @@ The Kids Art Club website uses a combination of fonts to create a visually appea
 - Mobile
 
 ![Fonts used in Kids Art Club](assets/images/readme/Mobile-Signup.png)
+
+[Go to Contents](#contents)
+
+## Features
+
+### General features on each page
+
+The header and footer are consistently displayed accross all three pages-Home, Gallery, and Signup-ensuring a unified and seamless user experience. On mobile devices, the navigation bar transforms into a hamburger menu, providing an intuitive and space-efficient way to navigate the site. This responsive design ensures that the website adapts beautifully to various screen sizes and devices, maintaining usability and aesthetics whether accessed on desktop, laptop, tablet, or smartphone. The consistent header and footer across all pages enhance navigation and brand identity, while the responsive design ensures accessibility and a positive user experience for all visitors.
+
+### Navbar
+
+#### Desktop, Laptop, and Tablets
+
+The navbar is at the top. It shows link to Home, Gallery, and Signup. Links are clear and easy to click.
+
+![Desktop Navbar](assets/images/readme/navbar_wider_screen.png)
+
+#### Mobile
+
+The navbar becomes a hamburger menu. Tap the icon to see links. It saves space and looks neat.
+
+![Mobile Navbar](assets/images/readme/navbar_mobile.png)
+
+### Footer
+
+The footer contains social media icons for easy access. Users can find icons linking to Facebook, Instagram, and Youtube. These icons are clearly displayed and provide quick links to our social media pages, ensuring users can connect with up on multiple platforms.
+
+![Footer](assets/images/readme/footer.png)
