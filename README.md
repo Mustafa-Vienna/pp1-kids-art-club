@@ -381,4 +381,79 @@ To set up the project for local development, follow these steps:
 
 ### Manual Testing
 
+Manual testing was conducted to ensure that common elements functioned correctly and were responsive on different devices. The following checks were confirmed.
 
+1. **Navbar Links**: Verified that clicking on Navbar links navigates to the correct page. (Home, Gallery, and Signup)
+2. **Logo**: Ensure that clicking on the Logo redirects to the Home page.
+3. **Page Responsiveness**: Checked the responsiveness of the all pages (Home, Gallery, and Signup) across devicess.
+4. **Button**: Confirmed that buttons on the Home page and other pages navigate to the appropriate section or the pages.
+5. **Map Interaction**: Tested that clicking the "View" link on the map screen opens the correct location.
+6. **Social Media Links**: Verified that clicking on Social Media icons redirects to the appropriate Social Media pages.
+7. **Form Validation**: Tested the form to ensure all fields must be filled out to submit.
+
+Following Devices were used for testing:
+
+#### Browser
+
+* Google Chrome
+* safari
+
+#### Laptop
+
+* Macbook Air M1, 13-inch
+* Samsung Monitor 32-inch
+* Asus Zenbook Fold
+
+#### Tablets
+
+* Blackberry Playbook
+* Nexus 10
+* iPad Mini
+* iPad Air
+* iPad Pro
+* Surface Pro 7
+
+#### Mobile devices
+
+* Google Pixel 6
+* Galaxy Note 3
+* Nexus 6P
+* Nokia N9
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* iPhone 14 Pro max
+* iPhone 15 Pro max
+* Pixel 7
+* Samsung Galaxy Z Fold 4
+* Samsung Galaxy S8+
+* Samsung Galaxy S20
+* Samsung Galaxy S20 Ultra
+* Samsung Galaxy A51/71
+* Surface Duo
+
+[Go to Contents](#contents)
+
+### W3C Testing
+
+#### Jigsaw CSS Validator
+
+The CSS code was validated using [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+
+![Jigsaw-CSS-Validator](assets/images/readme/css-validate.png)
+- **Pass**
+
+#### W3 HTML Validator
+
+The HTML code was validated using [W3C Validator](https://validator.w3.org/#validate_by_uri+with_options)
+
+![W3-HTML-Validator](assets/images/readme/index-validate.png)
+- **Pass**
+
+![W3-HTML-Validator](assets/images/readme/gallery-validate.png)
+- **Pass**
+
+![W3-HTML-Validator](assets/images/readme/signup-validate.png)
+- **Pass**
+
+[Go to Contents](#contents)
