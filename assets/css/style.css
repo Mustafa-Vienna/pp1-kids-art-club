@@ -392,11 +392,6 @@ footer {
     margin: 0 0.5rem;
   }
 
-  /* Main content */
-  main {
-    overflow: 4rem 2rem;
-  }
-
   /* Gallery page */
   #photos {
     column-count: 3;

@@ -31,7 +31,7 @@ This website was build as part of a full-stack software development program at C
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks & Libraries & Programs used](#frameworks-libraries-programs-user)
+  * [Frameworks & Libraries & Programs Used](#frameworks-libraries-programs-user)
 
 * [Deployment & Local Development](#deployment-local-development)
   * [Deployment](#deployment)
@@ -159,7 +159,7 @@ The Kids Art Club website uses a combination of fonts to create a visually appea
 
 [Go to Contents](#contents)
 
-### Wireframe
+### Wireframes
 
 #### Home
 
@@ -337,4 +337,48 @@ In the Kids Art Club website, the following technologies and tools were used:
 Those tools and resources helped in creating user-friendly Kids Art Club website.
 
 [Go to Contents](#contents)
+
+## Languages Used
+
+**HTML**<br>
+**CSS**
+
+
+## Frameworks & Libraries & Programs Used
+
+- **GitHub**: Utilized for version control and as a backup for the project components.
+
+- **VSCode**: Extensively used for coding and development tasks.
+
+[Go to Contents](#contents)
+
+## Deployment & Local Development
+
+### Deployment
+
+To deploy this project, follow these steps:
+
+1. **Create a New Repo**: Open GitHub and create a new repo using [CI Full Template](https://github.com/code-institute-org/gitpod-full-template) provided by Code Institute. Name the repo `pp1-kids-art-club`
+
+2. **Create a New Workspace**: Click the Gitpod button to create a new workspace based on the new repo.
+
+### Local Development
+
+To set up the project for local development, follow these steps:
+
+#### How to Clone
+
+1. **Log into Your Github Account**: Ensure you are logged into your Github account.
+2. **Go to the Repo**: Navigate to the repo for this project.
+3. **Copy the Clone Link**: Click on the "Code" button and copy your perferred clone link (HTTPS, SSH, or GitHub CLI).
+4. **Open the Terminal**: Open the terminal in your code editor.
+5. **Change Directory**: Change current working directory to the location where you want the coloned directory to be created.
+6. **Clone the Repo**: Type `git clone` in the terminal, paste the link you copied in the step 3, and press Enter.
+
+[Go to Contents](#contents)
+
+## Testing
+
+### Manual Testing
+
 
