@@ -286,3 +286,25 @@ The Signup page includes a contact form for enrolling in  the kids Art Club. The
 - **Art Interests**: Dropdown menu with options for Painting.
 
 ![Signup](assets/images/readme/signup.png)
+
+[Go to Contents](#contents)
+
+## Future Implementations
+
+I plan to improve the Kids Art Club website with interactive features using JavaScript. This will include online art classes and more dynamic gallery. As I learn more, I will make the site more engaging and user-firendly.
+
+## Accessibility
+
+The Kids Art Club website is designed with accessibility in mind to ensure all users can navigate and enjoy the content. Key accessibility features include: 
+
+- **Responsive Design**: The site is fully responsive, adapting to different screen sizes and devices to provide a seamless experience for all users.
+
+- **Alt Text for Images**: All images on the site inckude descriptive alt text to aid users with screen readers.
+
+- **Keyboard Navigation**: The site supports full keyboard navigation to assit users who cannot use a mouse.
+
+- **Contrast and Readability**: High contrast colors and readable fonts are used throughout the site to ensure text is easy to read.
+
+- **Semantic HTML**: The sites uses semantic HTML elements to improve accessibiity and SEO.
+
+Those features help make the Kids Art Club website inclusive and user-friendly for everyone.
