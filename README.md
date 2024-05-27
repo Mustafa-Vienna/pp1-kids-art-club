@@ -531,6 +531,10 @@ I used a Google Maps embedded map on the website. After running Lighthouse, I en
 - **Signup Form with Validation**: Code modified from [Stackoverflow](https://stackoverflow.com/questions/76068289/how-do-i-only-allow-the-user-to-type-alpha-characters-in-html-text-input)
 - **Other Code**: Borrowed and modified from students project, w3schools, stackoverflow.
 
+#### Assistance
+
+- **ChatGPT**: Used for understanding CSS code, troubleshooting, and improving my English writing skills, particularly for crafting the README file.
+
 #### Youtube channels
 
 - [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode)
