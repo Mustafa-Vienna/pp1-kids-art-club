@@ -548,7 +548,7 @@ The inspiration for this website came from the artist Zulayha, who I encountered
 
 All the pictures on the Kids Art Club website were provided by the teacher and artist, Zulayha. These images showcase the creativity and artistic expression fostered in her class.
 
-### Acknowledgememts
+### Acknowledgements
 
 I want to thank my mentor, Luke. Without his help, I would have struggled with this first project. His clear guidance and feedback always kept me on track.
 
