@@ -504,3 +504,21 @@ I use the Wave extension to test and imorove website accessibility. It provides 
 ![Wave-Home](assets/images/readme/wave-signup.png)
 
 [Go to Contents](#contents)
+
+## Bugs
+
+I used a Google Maps embedded map on the website. After running Lighthouse, I encountered issue related to third-party cookies and console errors, which I couldn't resolve.
+
+### Issues Identified
+
+1. **Third-Party Cookies**: The embedded Google Maps uses third-party cookies, which affects the best practices score.
+
+2. **Console Errors**: Unchecked runtime errors related to essage ports were logged in the console.
+
+![Lighthouse Best Practices Issue](assets/images/readme/bug1.png)
+
+![Lighthouse Best Practices Issue](assets/images/readme/bug2.png)
+
+![Lighthouse Best Practices Issue](assets/images/readme/bug3.png)
+
+[Go to Contents](#contents)
