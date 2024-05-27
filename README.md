@@ -165,59 +165,59 @@ The Kids Art Club website uses a combination of fonts to create a visually appea
 
 - Desktop
 
-![Fonts used in Kids Art Club](assets/images/readme/Desktop-Home.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/desktop-home.png)<br>
 
 - Laptop
 
-![Fonts used in Kids Art Club](assets/images/readme/Laptop-Home.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/laptop-home.png)<br>
 
 - Tablet
 
-![Fonts used in Kids Art Club](assets/images/readme/Tablet-Home.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/tablet-home.png)<br>
 
 - Mobile
 
-![Fonts used in Kids Art Club](assets/images/readme/Mobile-Home.png)
+![Fonts used in Kids Art Club](assets/images/readme/mobile-home.png)
 
 #### Gallery
 
 - Desktop
 
-![Fonts used in Kids Art Club](assets/images/readme/Desktop-Gallery.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/desktop-gallery.png)<br>
 
 - Laptop
 
-![Fonts used in Kids Art Club](assets/images/readme/Laptop-Gallery.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/laptop-gallery.png)<br>
 
 - Tablet
 
-![Fonts used in Kids Art Club](assets/images/readme/Tablet-Gallery.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/tablet-gallery.png)<br>
 
 - Larger screen Mobile (576px - 768px)
 
-![Fonts used in Kids Art Club](assets/images/readme/mobile(576-768)-Gallery.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/mobile(576-768)-gallery.png)<br>
 
 - Mobile
 
-![Fonts used in Kids Art Club](assets/images/readme/Mobile-Gallery.png)
+![Fonts used in Kids Art Club](assets/images/readme/mobile-gallery.png)
 
 #### Sign Up
 
 - Desktop
 
-![Fonts used in Kids Art Club](assets/images/readme/Desktop-Signup.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/desktop-signup.png)<br>
 
 - Laptop
 
-![Fonts used in Kids Art Club](assets/images/readme/Laptop-Signup.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/laptop-signup.png)<br>
 
 - Tablet
 
-![Fonts used in Kids Art Club](assets/images/readme/Tablet-Signup.png)<br>
+![Fonts used in Kids Art Club](assets/images/readme/tablet-signup.png)<br>
 
 - Mobile
 
-![Fonts used in Kids Art Club](assets/images/readme/Mobile-Signup.png)
+![Fonts used in Kids Art Club](assets/images/readme/mobile-signup.png)
 
 [Go to Contents](#contents)
 
@@ -464,5 +464,43 @@ The HTML code was validated using [W3C Validator](https://validator.w3.org/#vali
 
 ![W3-HTML-Validator](assets/images/readme/signup-validate.png)
 - **Pass**
+
+[Go to Contents](#contents)
+
+## Lighthouse
+
+I use Lighthouse to test and improve my website's performance, accessibility, best practice, and SEO.
+
+### Landing/Home page
+
+![Lighthouse-Home](assets/images/readme/lighthouse-home.png)
+
+### Gallery page
+
+![Lighthouse-Gallery](assets/images/readme/lighthouse-gallery.png)
+
+### Signup page
+
+![Lighthouse-Signup](assets/images/readme/lighthouse-signup.png)
+
+[Go to Contents](#contents)
+
+## Wave
+
+### Accessibility Testing
+
+I use the Wave extension to test and imorove website accessibility. It provides detailed insights and recommendations, making it easier to identify and fix accessibility issues, ensuring an inclusive user experience for all. 
+
+#### Home page
+
+![Wave-Home](assets/images/readme/wave-home.png)
+
+#### Gallery page
+
+![Wave-Home](assets/images/readme/wave-gallery.png)
+
+#### Signup page
+
+![Wave-Home](assets/images/readme/wave-signup.png)
 
 [Go to Contents](#contents)
