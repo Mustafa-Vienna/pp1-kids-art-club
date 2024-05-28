@@ -528,14 +528,15 @@ I used a Google Maps embedded map on the website. After running Lighthouse, I en
 ### Code Used
 
 - **Navigation Bar & Gallery page structures**: Code used from Love running Project Challenge.
-- **Signup Form with Validation**: Code modified from [Stackoverflow](https://stackoverflow.com/questions/76068289/how-do-i-only-allow-the-user-to-type-alpha-characters-in-html-text-input)
-- **Other Code**: Borrowed and modified from students project, w3schools, stackoverflow.
+- **Validation for the Signup Form**: The validation is inspired from [Stackoverflow](https://stackoverflow.com/questions/76068289/how-do-i-only-allow-the-user-to-type-alpha-characters-in-html-text-input)
 
 #### Assistance
 
 - **ChatGPT**: Used for understanding CSS code, troubleshooting, and improving my English writing skills, particularly for crafting the README file.
 
 #### Youtube channels
+
+I found the following Youtube channels very helpful in understanding the concepts of CSS and HTML:
 
 - [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode)
 - [Bro Code](https://www.youtube.com/@BroCodez)
@@ -552,7 +553,7 @@ All the pictures on the Kids Art Club website were provided by the teacher and a
 
 I want to thank my mentor, Luke. Without his help, I would have struggled with this first project. His clear guidance and feedback always kept me on track.
 
-A big thank you to my classmate/friend Ioan, a senior developer. He game me detailed advice, helped me manage my time, and tested my project.
+A big thank you to my classmate/friend Ioan, a senior developer. He gave me detailed advice, helped me manage my time, and tested my project.
 
 Thanks also to Lorenz for his quick help and support.
 
